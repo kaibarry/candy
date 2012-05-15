@@ -5,33 +5,108 @@ Candy data
 =end
 
 
+CANDY_ARRAY = Array.new
+
+candy = Candy.new
+
+candy.has_chocolate = true
+candy.name = "M&M's"
+candy.chewy = false
+candy.gluten_free = true
+candy.calorie_count = 4
+candy.main_color = "brown"
+
+CANDY_ARRAY << candy
+
+candy = Candy.new
+
+candy.has_chocolate = false
+candy.name = "Starbursts"
+candy.chewy = true
+candy.gluten_free = true
+candy.calorie_count = 8
+candy.main_color = "pink"
+
+CANDY_ARRAY << candy
 
 
-mms = Candy.new
+candy = Candy.new
 
-mms.has_chocolate = true
-mms.name = "M&M's"
-mms.chewy = false
-mms.gluten_free = true
-mms.calorie_count = 4
-mms.main_color = "brown"
+candy.has_chocolate = true
+candy.name = "Twix"
+candy.chewy = true
+candy.gluten_free = false
+candy.calorie_count = 20
+candy.main_color = "brown"
 
-
-starburst = Candy.new
-
-starburst.has_chocolate = false
-starburst.name = "Starbursts"
-starburst.chewy = true
-starburst.gluten_free = true
-starburst.calorie_count = 8
-starburst.main_color = "pink"
+CANDY_ARRAY << candy
 
 
-twix = Candy.new
+candy = Candy.new
 
-twix.has_chocolate = true
-twix.name = "Twix"
-twix.chewy = true
-twix.gluten_free = false
-twix.calorie_count = 20
-twix.main_color = "brown"
+candy.has_chocolate = true
+candy.name = "Twix"
+candy.chewy = true
+candy.gluten_free = false
+candy.calorie_count = 20
+candy.main_color = "brown"
+
+CANDY_ARRAY << candy
+
+
+candy = Candy.new
+
+candy.has_chocolate = true
+candy.name = "Twix"
+candy.chewy = true
+candy.gluten_free = false
+candy.calorie_count = 20
+candy.main_color = "brown"
+
+CANDY_ARRAY << candy
+
+
+candy = Candy.new
+
+candy.has_chocolate = true
+candy.name = "Twix"
+candy.chewy = true
+candy.gluten_free = false
+candy.calorie_count = 20
+candy.main_color = "brown"
+
+CANDY_ARRAY << candy
+
+
+candy = Candy.new
+
+candy.has_chocolate = true
+candy.name = "Twix"
+candy.chewy = true
+candy.gluten_free = false
+candy.calorie_count = 20
+candy.main_color = "brown"
+
+CANDY_ARRAY << candy
+
+
+candy = Candy.new
+
+candy.has_chocolate = true
+candy.name = "Twix"
+candy.chewy = true
+candy.gluten_free = false
+candy.calorie_count = 20
+candy.main_color = "brown"
+
+CANDY_ARRAY << candy
+
+
+candy = Candy.new
+
+candy.has_chocolate = true
+candy.name = "Twix"
+candy.chewy = true
+candy.gluten_free = false
+candy.calorie_count = 20
+candy.main_color = "brown"

@@ -7,9 +7,27 @@ Candy main program
 
 
 require "./candy_methods.rb"
-#require "candy_data"
+require "./candy_data.rb"
+
+p twix = CANDY_ARRAY.find { |candy| candy.name == "twix"}
+
+friends = twix.friends
+
+stats = twix.stats
 
 
+stats_output = "#{stats[:name] are a}"
+
+#test change
+
+
+
+
+
+
+
+
+=begin
 
 mms = Candy.new
 
@@ -58,7 +76,7 @@ puts""
 puts twix.has_chocolate_and_is_chewy?
 
 
-
+=end
 
 
 
